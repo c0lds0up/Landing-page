@@ -16,7 +16,6 @@
     display: flex;
     width: 900px;
     justify-content: space-between;
-    border: 2px solid green;
     align-items: flex-start;
 
 }
@@ -25,7 +24,6 @@
 .header-logo {
     display: flex;
     justify-content: space-between;
-    border: 2px solid #fff;
     margin: 10px;
 
 }
@@ -35,9 +33,10 @@
 }
 
 .hlink {
+    font-size: small;
     display: flex;
     justify-content: space-around;
-    border: 1px solid #fff;
-    margin: 5px;
+    color: #e5e7eb;
+    margin-left: 24px;
 
 }
