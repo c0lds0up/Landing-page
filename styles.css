@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    border: 1px solid #fff;
 }
 
 .header-container {
@@ -9,15 +10,8 @@
     background-color: #1f2937;
     height: 100px;
     display: flex;
-    justify-content: center;
-}
-
-.header {
-    display: flex;
-    width: 900px;
     justify-content: space-between;
     align-items: flex-start;
-
 }
 
 .header-links,
@@ -28,15 +22,67 @@
 
 }
 
+.header-links {
+    margin-left: auto;
+}
+
 .header-logo {
     font-weight: bold;
+    font-size: 24px;
 }
 
 .hlink {
-    font-size: small;
+    font-size: 18px;
     display: flex;
     justify-content: space-around;
     color: #e5e7eb;
     margin-left: 24px;
 
+}
+
+.hero-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
+
+}
+
+.hero-text-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9faf8;
+
+}
+
+.hero-text-sub {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.hero-image {
+    display: flex;
+    width: 450px;
+    height: 250px;
+    background-color: #e5e7eb69;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
 }
